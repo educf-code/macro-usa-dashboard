@@ -8,14 +8,14 @@ Original file is located at
 """
 
 from datetime import date, timedelta, datetime
-import time
 from dateutil.relativedelta import relativedelta
-import requests as req
+from google.colab import userdata
 from urllib.parse import urlencode
+import time
+import requests as req
 import pandas as pd
 import numpy as np
 import os
-from google.colab import userdata
 
 base_url = "https://api.stlouisfed.org/fred/series/observations"
 api_key = ''
